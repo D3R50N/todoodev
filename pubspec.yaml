@@ -1,0 +1,47 @@
+name: todoodev
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.0.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.16
+  gap: ^2.0.1
+  get: ^4.6.5
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+      - family: RubikGlitch
+        fonts:
+          - asset: assets/fonts/RubikGlitch.ttf
+      - family: Marhey
+        fonts:
+          - asset: assets/fonts/Marhey.ttf
+      - family: Kanit
+        fonts:
+          - asset: assets/fonts/Kanit.ttf
+      - family: Alexandria
+        fonts:
+          - asset: assets/fonts/Alexandria.ttf
+      - family: Poppins
+        fonts:
+          - asset: assets/fonts/Poppins-Regular.ttf
+          - asset: assets/fonts/Poppins-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Poppins-SemiBold.ttf
+            weight: 600
+  assets:
+      - assets/images/
